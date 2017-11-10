@@ -11,12 +11,12 @@ public class Evento {
 	private Date data_inicio;
 	private Date data_fim;
 	private Usuario organizador;
-	private ArrayList<Usuarios> participantes;
+	private ArrayList<Usuario> participantes;
 	//private Calendario calendario;
 	
 	
 	public Evento(String nome, String local, int tipo, Date data_inicio, Date data_fim, Usuario organizador,
-			ArrayList<Usuarios> participantes) {
+			ArrayList<Usuario> participantes) {
 		super();
 		this.nome = nome;
 		this.local = local;
@@ -89,12 +89,12 @@ public class Evento {
 	}
 
 
-	public ArrayList<Usuarios> getParticipantes() {
+	public ArrayList<Usuario> getParticipantes() {
 		return participantes;
 	}
 
 
-	public void setParticipantes(ArrayList<Usuarios> participantes) {
+	public void setParticipantes(ArrayList<Usuario> participantes) {
 		this.participantes = participantes;
 	}
 	
